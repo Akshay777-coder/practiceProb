@@ -43,6 +43,16 @@ void deleteElement(int arr[], int *n, int pos) {
     (*n)--;   // Decrease size
 }
 
+/* Search array elements */
+int search(int arr[], int n, int key) {
+    for(int i = 0;i < n;i++) {
+        if(key == arr[i]) {
+            return i;
+        }
+    }
+    return -1;
+}
+
 /* Update value at given position */
 void update(int arr[], int n, int pos, int value) {
     if (pos < 0 || pos >= n) {
@@ -74,6 +84,7 @@ int main() {
 
     update(arr, n, 2, 100);
     display(arr, n);
-
+    
+    printf("Index of 100 is %d\n",search(arr, n, 100));
     return 0;
 }
