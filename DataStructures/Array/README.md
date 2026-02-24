@@ -10,6 +10,7 @@ It performs the following operations on a static array:
   <li>Insertion at a given position</li>
   <li>Deletion from a given position</li>
   <li>Update at a given position</li>
+  <li>Search an element</li>
   <li>Display array elements</li>
 </ul>
 
@@ -102,7 +103,32 @@ Updating is simple:
 
 <hr>
 
-<h3>6️⃣ Display Function</h3>
+<h3>6️⃣ Search Logic (Linear Search)</h3>
+<p>
+The program uses <b>Linear Search</b> to find an element in the array.
+</p>
+
+<ol>
+  <li>Traverse the array from index 0 to n-1</li>
+  <li>Compare each element with the target value</li>
+  <li>If found, return its position</li>
+  <li>If not found, display "Element not found"</li>
+</ol>
+
+<p>
+Linear Search is suitable here because:
+</p>
+
+<ul>
+  <li>The array is not necessarily sorted</li>
+  <li>The size is small (MAX = 10)</li>
+</ul>
+
+<p><b>Time Complexity:</b> O(n)</p>
+
+<hr>
+
+<h3>7️⃣ Display Function</h3>
 <p>
 Traverses the array from index 0 to n-1 and prints elements.
 </p>
@@ -117,6 +143,7 @@ Traverses the array from index 0 to n-1 and prints elements.
   <li>Array Overflow (when array is full)</li>
   <li>Array Underflow (when array is empty)</li>
   <li>Invalid Position checks</li>
+  <li>Element Not Found in search</li>
 </ul>
 
 <hr>
@@ -134,6 +161,9 @@ After delete at position 2:
 
 After update at position 2:
 1 2 100 3 4 5
+
+Searching for 100:
+Element found at position 2
 </pre>
 
 <hr>
@@ -145,6 +175,7 @@ After update at position 2:
   <li>Implementing dynamic behavior using static arrays</li>
   <li>Using pointers to modify variables in functions</li>
   <li>Understanding time complexity of array operations</li>
+  <li>Implementing Linear Search algorithm</li>
 </ul>
 
 <hr>
@@ -158,6 +189,7 @@ This program builds a strong foundation for understanding:
   <li>Data Structures</li>
   <li>Array Manipulation</li>
   <li>Pointer Concepts in C</li>
+  <li>Searching Algorithms</li>
 </ul>
 
 <p>
