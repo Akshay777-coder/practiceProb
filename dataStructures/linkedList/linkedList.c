@@ -235,17 +235,14 @@ void display() {
    Driver Code
 */
 int main() {
-
     push_front(10);
     push_front(20);
     push_back(30);
     push_back(40);
-
     display();
 
     pop_front();
     insert(22,2);
-
     display();
 
     printf("Index of 30 is: %d\n", search(30));
