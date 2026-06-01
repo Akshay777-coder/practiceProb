@@ -12,5 +12,7 @@ public class chw_14_string_methods {
         
         String ustring = name.toUpperCase();
         System.out.println(ustring);
+        //strings are immutable that's why we are assigning it to the new string...
+
     }
 }
