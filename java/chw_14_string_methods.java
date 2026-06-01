@@ -3,9 +3,14 @@ public class chw_14_string_methods {
         String name = "Harry";
         //String name = new String("harry");
         System.out.println(name);
+        
         int value = name.length();
         System.out.println(value);
+        
         String lstring = name.toLowerCase();
         System.out.println(lstring);
+        
+        String ustring = name.toUpperCase();
+        System.out.println(ustring);
     }
 }
