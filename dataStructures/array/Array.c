@@ -1,5 +1,4 @@
 #include <stdio.h>
-
 #define MAX 10   // Maximum size of array
 
 /* Insert value at given position */
