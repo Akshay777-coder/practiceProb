@@ -24,5 +24,7 @@ public class chw_14_string_methods {
 
         System.out.println(name.replace('r','p'));
         System.out.println(name.replace("r","ier"));
+
+        System.out.println(name.startsWith("Har"));
     }
 }
