@@ -28,5 +28,6 @@ public class chw_14_string_methods {
         System.out.println(name.startsWith("Har"));
         System.out.println(name.endsWith("rry"));
         System.out.println(name.charAt(2));
+        System.out.println(name.indexOf("ry"));
     }
 }
