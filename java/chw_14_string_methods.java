@@ -19,6 +19,10 @@ public class chw_14_string_methods {
         String trimmedString = nonTrimmedString.trim();
         System.out.println(trimmedString);
 
+        System.out.println(name.substring(1));
         System.out.println(name.substring(1,4));
+
+        System.out.println(name.replace('r','p'));
+        System.out.println(name.replace("r","ier"));
     }
 }
