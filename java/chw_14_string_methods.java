@@ -27,11 +27,17 @@ public class chw_14_string_methods {
 
         System.out.println(name.startsWith("Har"));
         System.out.println(name.endsWith("rry"));
+  
         System.out.println(name.charAt(2));
         System.out.println(name.indexOf("ry"));
+        
         String modifiedName = "Harryrry";
         System.out.println(modifiedName.indexOf("rry",4));
+        
         System.out.println(name.equals("Harry"));
         System.out.println(name.equalsIgnoreCase("harry"));
+    
+        System.out.println("I am escape sequence \" doube quote");
+        // \" \n \t \' \\ -> they all are escape sequences
     }
 }
