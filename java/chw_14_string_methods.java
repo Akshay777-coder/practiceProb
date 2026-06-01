@@ -30,6 +30,6 @@ public class chw_14_string_methods {
         System.out.println(name.charAt(2));
         System.out.println(name.indexOf("ry"));
         String modifiedName = "Harryrry";
-        System.out.println(modifiedName.indexOf("rry"));
+        System.out.println(modifiedName.indexOf("rry",4));
     }
 }
