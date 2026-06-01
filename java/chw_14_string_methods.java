@@ -5,5 +5,7 @@ public class chw_14_string_methods {
         System.out.println(name);
         int value = name.length();
         System.out.println(value);
+        String lstring = name.toLowerCase();
+        System.out.println(lstring);
     }
 }
