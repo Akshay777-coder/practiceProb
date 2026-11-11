@@ -1,0 +1,48 @@
+<!-- Question 3. HTML Forms: Design a student registration form using HTML with text fields, radio buttons, checkboxes, dropdown lists, date input, and submit/reset buttons. -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h2>Student Registration Form</h2>
+    <form action="/submit_registration" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required><br><br>
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="gender">Gender</label>
+        <input type="radio" id="gender" name="gender" value="male" required> Male
+        <input type="radio" id="gender" name="gender" value="female"> Female
+        <input type="radio" id="gender" name="gender" value="other"> Other<br><br>
+
+        <label for="courses">Courses:</label>
+        <input type="checkbox" id="DataScience" name="courses" value="DataScience"> Data Science
+        <input type="checkbox" id="WebDevelopment" name="courses" value="WebDevelopment"> Web Development
+        <input type="checkbox" id="AI" name="courses" value="AI"> Artificial Intelligence<br><br>
+
+        <label for="country">Country:</label>
+        <select id="country" name="country">
+            <option value="India">India</option>
+            <option value="Canada">Canada</option>
+            <option value="China">China</option>
+            <option value="Japan">Japan</option>
+            <option value="Russia">Russia</option>
+            <option value="USA">USA</option>
+        </select>
+
+        <br><br>
+        <label for="dob">Date of Birth:</label>
+        <input type="date" id="dob" name="dob" required><br><br>
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+    </form>
+</body>
+</html>
