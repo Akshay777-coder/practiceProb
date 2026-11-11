@@ -1,0 +1,26 @@
+<!-- 8. DOM Manipulation: Create a webpage containing a heading, paragraph, and button. Use JavaScript DOM methods to change the heading text, paragraph content, and background color when the button is clicked. -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Question 8</title>
+</head>
+<body>
+    <h1 id="heading1">Original Heading</h1>
+    <p id="paragraph1">This is the original paragraph content.</p>
+    <button id="changeButton">Change Content</button>
+
+    <script>
+        document.getElementById('changeButton').addEventListener('click', function() {
+            // Change heading text
+            document.getElementById('heading1').textContent = 'This is the updated Heading';
+            // Change paragraph content
+            document.getElementById('paragraph1').textContent = 'This is the updated paragraph content.';
+            // Change background color
+            document.body.style.backgroundColor = '#f0f8ff'; // Light blue background
+        })
+    </script>
+</body>
+</html>
