@@ -1,0 +1,50 @@
+<!-- Question 6. JavaScript Calculator: Create a calculator using HTML, CSS, and JavaScript that performs addition, subtraction, multiplication, and division. -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Question 6</title>
+</head>
+<body>
+    <h2>JavaScript Calculator</h2>
+    <label for="num1">Number 1:</label>
+    <input type="number" id="num1" required>
+    <br><br>
+    <label for="num2">Number 2:</label>
+    <input type="number" id="num2" required>
+    <br><br>
+    <button onclick="calculate('add')">Add</button>
+    <button onclick="calculate('subtract')">Subtract</button>
+    <button onclick="calculate('multiply')">Multiply</button>
+    <button onclick="calculate('divide')">Divide</button>
+    <h3>Result: <span id="result"></span></h3>
+
+    <script>
+        function calculate(operation) {
+            const num1 = parseFloat(document.getElementById('num1').value);
+            const num2 = parseFloat(document.getElementById('num2').value);
+            let result;
+            switch (operation) {
+                case 'add':
+                    result = num1 + num2;
+                    break;
+                case 'subtract':
+                    result = num1 - num2;
+                    break;
+                case 'multiply':
+                    result = num1 * num2;
+                    break;
+                case 'divide':
+                    if (num2 !== 0) {
+                        result = num1 / num2;
+                    } else {
+                        result = 'Error: Division by zero';
+                    }
+            }
+            document.getElementById('result').textContent = result;
+        }
+    </script>
+</body>
+</html>
