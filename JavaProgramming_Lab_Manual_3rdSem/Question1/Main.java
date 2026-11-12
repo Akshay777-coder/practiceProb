@@ -1,3 +1,6 @@
+// 1. Check whether N is a Prime Number.
+// 2. Check whether N is an Armstrong Number (sum of cubes/k-th powers of its digits equals N).
+
 import java.util.Scanner;
 import java.lang.Math;
 
