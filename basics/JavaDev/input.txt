@@ -1,0 +1,4 @@
+Java is a powerful programming language.
+Python is also a powerful programming language.
+Java and Python are popular languages.
+Programming makes problem solving easier.
