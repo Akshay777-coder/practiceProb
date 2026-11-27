@@ -1,3 +1,8 @@
+/* Question 2: Write a Java program to input two matrices A (size m × n) and B (size n × p). Perform the following operations:
+1. Compute and display the product matrix C = A × B.
+2. Compute and display the Transpose of a square matrix and calculate the sum of its principal and secondary diagonal
+elements. */
+
 import java.util.Scanner;
 
 class Solution {
